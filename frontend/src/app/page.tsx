@@ -49,7 +49,7 @@ export default function Home() {
       if (!cloneRes.ok) throw new Error('Failed to clone website');
       const cloneData = await cloneRes.json();
       setClonedHTML(cloneData.cloned_html);
-    } catch (err) {
+    } catch  {
       setError('An error occurred while cloning the website');
     } finally {
       setLoading(false);
