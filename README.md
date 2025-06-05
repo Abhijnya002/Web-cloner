@@ -1,6 +1,13 @@
-# Website Cloner
+# 🌸 Orchid Website Cloner
 
-A full-stack AI-powered website cloning tool that takes in a public website URL, scrapes its HTML/CSS design context, and regenerates it using a language model. 
+A full-stack AI-powered website cloning tool that takes in a public website URL, scrapes its HTML/CSS design context, and regenerates it using a language model. Built as part of the **Orchids SWE Internship Take-Home Challenge**.
+
+---
+
+## 📸 Github Link
+
+https://github.com/Abhijnya002/Web-cloner/
+
 ---
 
 ## 💡 Features
@@ -105,6 +112,20 @@ Web-cloner/
 │   └── public/             # Assets
 └── README.md
 ```
+
+---
+
+## 🎥 Submission Video
+
+The walkthrough video explains:
+
+- App UI and features
+- Scraping flow and API interactions
+- How LLM is used for HTML generation
+- Result rendering in iframe
+- Vercel Deployment (Demo link)
+
+> 📹 https://drive.google.com/file/d/1HjA20YFAdNb5-aaxthwxFdgU-Ifru26u/view?usp=sharing
 
 ---
 
