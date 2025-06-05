@@ -108,20 +108,6 @@ Web-cloner/
 
 ---
 
-## 🎥 Submission Video
-
-The walkthrough video explains:
-
-- App UI and features
-- Scraping flow and API interactions
-- How LLM is used for HTML generation
-- Result rendering in iframe
-- Vercel Deployment (Demo link)
-
-> 📹 https://drive.google.com/file/d/1HjA20YFAdNb5-aaxthwxFdgU-Ifru26u/view?usp=sharing
-
----
-
 ## 🧠 Notes
 
 - ✅ Supports modern Tailwind UI animations and transitions
