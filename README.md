@@ -1,4 +1,4 @@
-# 🌸 Orchid Website Cloner
+# Website Cloner
 
 A full-stack AI-powered website cloning tool that takes in a public website URL, scrapes its HTML/CSS design context, and regenerates it using a language model. 
 ---
