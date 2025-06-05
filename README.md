@@ -1,13 +1,6 @@
 # 🌸 Orchid Website Cloner
 
-A full-stack AI-powered website cloning tool that takes in a public website URL, scrapes its HTML/CSS design context, and regenerates it using a language model. Built as part of the **Orchids SWE Internship Take-Home Challenge**.
-
----
-
-## 📸 Github Link
-
-
-
+A full-stack AI-powered website cloning tool that takes in a public website URL, scrapes its HTML/CSS design context, and regenerates it using a language model. 
 ---
 
 ## 💡 Features
