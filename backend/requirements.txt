@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
 requests
-playwright==1.44.0 
+playwright
 beautifulsoup4
 python-dotenv
