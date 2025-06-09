@@ -32,7 +32,7 @@ export default function Home() {
     const BACKEND_URL = 'https://web-cloner-4.onrender.com';
 
     try {
-      const scrapeRes = await fetch(``${BACKEND_URL}/scrape/``, {
+      const scrapeRes = await fetch(`${BACKEND_URL}/scrape/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url }),
@@ -41,7 +41,7 @@ export default function Home() {
       if (!scrapeRes.ok) throw new Error('Failed to scrape website');
       const scrapeData = await scrapeRes.json();
 
-      const cloneRes = await fetch(``${BACKEND_URL}/clone/``, {
+      const cloneRes = await fetch(`${BACKEND_URL}/clone/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ html: scrapeData.html, stylesheets: scrapeData.stylesheets }),
