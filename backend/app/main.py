@@ -16,7 +16,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Use your frontend origin in production
+    allow_origins=["https://web-cloner-vwxz.vercel.app"], # Use your frontend origin in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
