@@ -22,9 +22,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ============================
+
 # Models
-# ============================
 class URLRequest(BaseModel):
     url: str
     method: str = "playwright"  # can be "playwright" or "bs4"
@@ -33,9 +32,7 @@ class CloneRequest(BaseModel):
     html: str
     stylesheets: list[str] = []
 
-# ============================
 # /scrape/ - Dual Method Support
-# ============================
 @app.post("/scrape/")
 async def scrape_website(request: URLRequest):
     try:
@@ -50,9 +47,7 @@ async def scrape_website(request: URLRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# ----------------------------
 # Playwright-based scraping
-# ----------------------------
 async def scrape_with_playwright(url: str):
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -74,9 +69,7 @@ async def scrape_with_playwright(url: str):
         "screenshot": screenshot_base64
     }
 
-# ----------------------------
 # BeautifulSoup-based scraping (fast + no JS)
-# ----------------------------
 def scrape_with_bs4(url: str):
     res = requests.get(url, timeout=10)
     if not res.ok:
@@ -90,9 +83,7 @@ def scrape_with_bs4(url: str):
         "stylesheets": []  # Not handled in BS4 mode
     }
 
-# ============================
 # /clone/ - HuggingFace API OR Echo
-# ============================
 @app.post("/clone/")
 async def clone_website(data: CloneRequest):
     # Just return raw HTML for now
@@ -100,9 +91,7 @@ async def clone_website(data: CloneRequest):
 
 
 
-# ----------------------------
 # HuggingFace Zephyr Cloning
-# ----------------------------
 async def clone_with_huggingface(data: CloneRequest):
     prompt = f"""
 You are a skilled HTML and CSS developer. Based on the following HTML and CSS context, return a single-file HTML page that visually replicates the design.
