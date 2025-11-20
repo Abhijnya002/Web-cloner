@@ -86,7 +86,7 @@ npm run dev
 
 ---
 
-## 🔁 How It Works
+## How It Works
 
 1. **User Input**: Enter a URL → Press “Clone Website”
 2. **Scraping**: Frontend sends POST to `/scrape/` with URL  
@@ -97,7 +97,7 @@ npm run dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Web-cloner/
