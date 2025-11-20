@@ -4,7 +4,7 @@ A full-stack AI-powered website cloning tool that takes in a public website URL,
 
 ---
 
-## 📸 Github Link
+## Github Link
 
 https://github.com/Abhijnya002/Web-cloner/
 
