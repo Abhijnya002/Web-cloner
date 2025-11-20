@@ -10,20 +10,20 @@ https://github.com/Abhijnya002/Web-cloner/
 
 ---
 
-## 💡 Features
+## Features
 
-- 🌐 Clone any public website by entering its URL
-- 🕷️ Web scraping with Playwright for JS-heavy sites (and optional fallback to BeautifulSoup)
-- 🤖 HTML generation using Hugging Face Zephyr-7B
-- 🌗 Dark & Light mode toggle with persistent local preference
-- 🎨 Animated, responsive, stylish UI (Tailwind CSS + custom effects)
-- 🧪 Raw HTML preview + live iframe rendering
-- 🌀 Loader animation during processing
-- 🧩 Error handling and smooth UX transitions
+- Clone any public website by entering its URL
+- Web scraping with Playwright for JS-heavy sites (and optional fallback to BeautifulSoup)
+- HTML generation using Hugging Face Zephyr-7B
+- Dark & Light mode toggle with persistent local preference
+- Animated, responsive, stylish UI (Tailwind CSS + custom effects)
+- Raw HTML preview + live iframe rendering
+- Loader animation during processing
+- Error handling and smooth UX transitions
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer    | Technology                           |
 |----------|---------------------------------------|
@@ -33,7 +33,7 @@ https://github.com/Abhijnya002/Web-cloner/
 
 ---
 
-## 🚀 Local Setup
+## Local Setup
 
 ### 1. Clone the Repository
 
@@ -115,12 +115,12 @@ Web-cloner/
 
 ---
 
-## 🧠 Notes
+##  Notes
 
-- ✅ Supports modern Tailwind UI animations and transitions
-- ✅ Fully responsive on mobile and desktop
-- ✅ Handles slow-loading websites with loading animation
-- ✅ Hugging Face response is trimmed for optimal prompt size
+- Supports modern Tailwind UI animations and transitions
+- Fully responsive on mobile and desktop
+- Handles slow-loading websites with loading animation
+- Hugging Face response is trimmed for optimal prompt size
 
 ---
 
